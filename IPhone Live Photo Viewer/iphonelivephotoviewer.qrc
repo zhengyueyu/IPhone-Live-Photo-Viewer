@@ -1,4 +1,6 @@
 <RCC>
-    <qresource prefix="IPhoneLivePhotoViewer">
+    <qresource prefix="/">
+        <file>res/icon/slide_right.svg</file>
+        <file>res/icon/slide_left.svg</file>
     </qresource>
 </RCC>

@@ -396,3 +396,4 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+/IPhone Live Photo Viewer/3rdparty/SDL2-2.26.3/docs/README-gdk.md

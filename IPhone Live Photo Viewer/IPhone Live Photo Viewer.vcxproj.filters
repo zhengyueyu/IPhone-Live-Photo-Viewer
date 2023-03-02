@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="iphonelivephotoviewer.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="utils.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="livephotoswidget.cpp">
+      <Filter>widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="movviewer.cpp">
+      <Filter>widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="baseimage.cpp">
+      <Filter>model</Filter>
+    </ClCompile>
+    <ClCompile Include="heifimage.cpp">
+      <Filter>model</Filter>
+    </ClCompile>
+    <ClCompile Include="imagesmanager.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="utils.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="livephotoswidget.h">
+      <Filter>widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="movviewer.h">
+      <Filter>widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="baseimage.h">
+      <Filter>model</Filter>
+    </ClInclude>
+    <ClInclude Include="heifimage.h">
+      <Filter>model</Filter>
+    </ClInclude>
+    <ClInclude Include="imagesmanager.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="iphonelivephotoviewer.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <QtRcc Include="iphonelivephotoviewer.qrc" />
+  </ItemGroup>
+  <ItemGroup>
+    <QtUic Include="iphonelivephotoviewer.ui" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="IPhone Live Photo Viewer.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="utils">
+      <UniqueIdentifier>{cf64b5b6-763a-4866-803b-0ac47773f672}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Translation Files">
+      <UniqueIdentifier>{639EADAA-A684-42e4-A9AD-28FC9BCB8F7C}</UniqueIdentifier>
+      <Extensions>ts</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="widgets">
+      <UniqueIdentifier>{0e5921c4-f09a-4519-a42e-768a1fc65255}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="model">
+      <UniqueIdentifier>{6c59d251-ca9d-48b4-874c-d0af213cff17}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <QtTranslation Include="iphone live photo viewer_zh.ts">
+      <Filter>Translation Files</Filter>
+    </QtTranslation>
+  </ItemGroup>
+</Project>

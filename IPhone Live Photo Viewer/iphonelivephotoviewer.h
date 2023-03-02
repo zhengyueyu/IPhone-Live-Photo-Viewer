@@ -3,6 +3,9 @@
 #include <QtWidgets/QWidget>
 #include "ui_iphonelivephotoviewer.h"
 
+
+class QStackedWidget;
+
 class IPhoneLivePhotoViewer : public QWidget
 {
     Q_OBJECT
